@@ -121,7 +121,6 @@ class Homework2 {
                 return;
             } catch (MyNullException e) {
                 System.out.printf("%s\nПовторите ввод: ", e.getMessage());
-                sc.nextLine();
             }
         }
     }
@@ -133,7 +132,7 @@ class Homework2 {
      */
     public static void NotNullStringInput() throws MyNullException {
         String text = sc.nextLine();
-        if (text == null) {
+        if (text.isEmpty()) {
             throw new MyNullException("Ввод пустой строки не допускается!");
         } else {
             System.out.println("Вы ввели: " + text);

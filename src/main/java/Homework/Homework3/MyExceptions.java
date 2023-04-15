@@ -1,4 +1,4 @@
-package Homework3;
+package Homework.Homework3;
 
 public class MyExceptions extends Exception{
     /**

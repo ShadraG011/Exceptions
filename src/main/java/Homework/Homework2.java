@@ -8,10 +8,10 @@ class Homework2 {
     private static Scanner sc = new Scanner(System.in);
 
     public static void main(String[] args) {
-//        task1();
+        task1();
 //        task2();
 //        task3();
-        task4();
+//        task4();
     }
 
     /*
@@ -26,7 +26,6 @@ class Homework2 {
         System.out.print("Введите число: ");
         while (true) {
             try {
-
                 float number = floatNumberInput();
                 System.out.println(number);
                 return;
